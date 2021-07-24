@@ -27,7 +27,34 @@
 .App-link {
   color: #61dafb;
 }
+.App .title {
+  font-size: 5rem;
+  padding: 0px 20px 0px 20px;
+  background-color: rgb(242, 255, 123);
+  border-radius: 10px;
+  border: 2px solid black;
+  align-self: center;
+  color: #1b1b1b;
+  font-family: "Covered By Your Grace", cursive;
+}
+.App ul {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+.App ul li {
+  list-style: none;
+  margin-bottom: 4px;
 
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: -100px;
+  background-color: rgb(236, 236, 236, 0.6);
+  font-family: "Permanent Marker", cursive;
+  color: black;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
